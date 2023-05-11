@@ -1,0 +1,241 @@
+.container {
+    width: 1500px;
+    height: 600px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+
+.form__transition {
+    width: 1400px;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 200px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 100px 80px rgba(174, 174, 174, 0.08), 
+    0px 43.751px 36.4414px rgba(174, 174, 174, 0.0575083), 
+    0px 19.8401px 19.1406px rgba(174, 174, 174, 0.0476886), 
+    0px 6.77214px 9.61331px rgba(174, 174, 174, 0.04),
+    0px 0.190079px 4.14347px rgba(174, 174, 174, 0.0323114), 
+    0px -1.73968px 1.20532px rgba(174, 174, 174, 0.0224916);
+    border-radius: 0px;
+    
+}
+
+.form__transition:hover {
+    background: #eee;
+}
+    .transition {
+        transition: 1.5s
+    }
+
+    .form__transition {
+        transition: 1s; 
+    }
+
+.form__transition 
+    .form:hover {
+        transform: scale(1.3); 
+    }
+
+    .form {
+        transition: 1s;
+    }    
+
+.form__info {
+    display: flex;
+    gap: 30px;
+}
+    
+.form__input {
+    width: 300px;
+    height: 30px;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.form__select {
+    margin-top: 20px;
+    font-size: 30px;
+    width: 300px;
+    height: 30px;
+}
+
+.payment-details {
+    margin-top: 20px;
+}
+
+.billing-address {
+    margin-top: 175px
+}
+
+
+
+
+
+.button {
+    width: 152px;
+    height: 58px;
+    background-color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 80px;
+    width: 300px;
+    margin-top: -30px;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+ 
+.button:hover {
+    background: #333; 
+}
+.press:hover {
+    color: green;
+}
+.transition {
+    transition: 1.5s
+}
+.button {
+    transition: 1s; 
+}
+.button:hover {
+    transform: scale(1.05); 
+}
+
+
+.press:hover {
+    color: #C72535;
+}
+.transition {
+    transition: 1.5s
+}
+
+/*
+.button__transition {
+    height: 80px;
+    width: 300px;
+    background-color: black;
+    color: #FFFFFF;
+    margin-top: -30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.button__transition    
+    .button__transition:hover {
+        background: #333; 
+    }
+    .press:hover {
+        color: green;
+    }
+    .transition {
+        transition: 1.5s
+    }
+    .button__transition {
+        transition: 1s; 
+    }
+    .button__transition {
+        transform: scale(1.03); 
+    }
+   
+.button__transition 
+    .press:hover {
+        color: #C72535;
+    }
+    .transition {
+        transition: 1.5s
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.form__select {
+    font-size: 30px;
+}
+
+.form {
+    width: 1150px;
+    margin-left: 300px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 100px 80px rgba(174, 174, 174, 0.08), 
+    0px 43.751px 36.4414px rgba(174, 174, 174, 0.0575083), 
+    0px 19.8401px 19.1406px rgba(174, 174, 174, 0.0476886), 
+    0px 6.77214px 9.61331px rgba(174, 174, 174, 0.04),
+    0px 0.190079px 4.14347px rgba(174, 174, 174, 0.0323114), 
+    0px -1.73968px 1.20532px rgba(174, 174, 174, 0.0224916);
+    border-radius: 0px;
+
+}
+
+.form:hover {
+    background: #eee;
+}
+    .transition {
+        transition: 1.5s
+    }
+    
+    .logos__brands {
+        transition: 1s; 
+    }
+
+.logos__brands 
+    .brands:hover {
+        transform: scale(1.3); 
+    }
+
+    .brands {
+        transition: 1s;
+    }
+
+
+
+.form__input {
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+.form__button {
+    margin-left: 300px;
+}
+
+.form___title {
+    margin-top: 30px
+}
+
+
+
+
+.form__frame2 {
+    display: flex;
+    justify-content: space-between;
+}

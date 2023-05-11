@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.form {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
+
